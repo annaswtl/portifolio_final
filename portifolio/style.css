@@ -1,0 +1,19 @@
+@import url(https://fonts.google.com/share?selection.family=Bebas+Neue|Overpass:ital,wght@0,100..900;1,100..900);
+@import url(https://fonts.google.com/share?selection.family=Bebas+Neue|Overpass:ital,wght@0,100..900;1,100..900);
+:root {
+  --primary-color: #1400c5;
+  --secondary-color: #d2a3db;
+  --background-color: #b812a2;
+  --text-color: #f1ebfa;
+}
+
+body {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+h1,h2,h5 {
+    color: var(--background-color);
+    font-weight: 700;
+}.card {
+    font-family: 'Bebas Neue', Arial, sans-serif;
+}
