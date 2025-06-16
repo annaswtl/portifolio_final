@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ...existing code... -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<!-- ...existing code... -->
+ <!-- ...existing code... -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<!-- ...existing code... -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu Portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <!-- Imagem do avatar -->
+        <img src="avatar.png" alt="..." width="200" height="200" class="rounded-circle mt-5 mb-3">
+
+        <!-- Texto de apresentação -->
+        <p class="lead">Eu sou a Ana!</p>
+        <h1>Sou estudante e estou aprendendo programação</h1>
+        <p>Estou no ensino médio e estou começando a aprender sobre programação. Pretendo me desenvolver em ciência da
+            computação ou engenharia de software.</p>
+
+        <!-- Lista de habilidades -->
+        <p>Habilidades que estou aprendendo:</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">Python</p>
+        </div>
+    </header>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"
+    ></script>
+    <main class="container py-5">
+  <h2>Meus projetos</h2>
+  <div class="row d-flex align-items-stretch">
+    <div class="col-md-4 mb-4">
+      <div class="card h-100"> 
+        <img src="cartões.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Validador de bandeiras de cartão de crédito</h5>
+          <p class="card-text">
+            Nesse projeto, fiz um pequeno teste de um validador de bandeiras de cartão de crédito, utilizando JavaScript.
+          </p>
+          <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#modal1"> Ir para o projeto
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="máquina_azure.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Máquina Virtual Azure</h5>
+          <p class="card-text">
+            Nesse projeto, utilizei a plataforma Azure para criar uma máquina virtual e um banco de dados SQL, aprendendo mais funcções sobre a nuvem.
+          </p>
+          <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#modal2">Ir para o projeto</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card h-100">
+        <img src="excelogimage.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Relatório de Vendas</h5>
+          <p class="card-text">
+            Nesse projeto, utilizei o Excel para criar um relatório de vendas com gráficos e tabelas, aprendendo a separar dados e informações com funções inteligentes.      
+          </p>
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal3">Ir para o projeto</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<!-- Modal 1 -->
+ <div class="modal" id="modal1" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Validador de bandeiras de cartão de crédito</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>O projeto é um simples teste em linguagem JavaScript para validar bandeiras de cartão de crédito. Utilizando uma tabela e criando funções numéricas, ao gerar um número aleatório, a bandeira é validada e identificada.</p>
+      </div>
+      <div class="modal-footer">
+       <a href="https://github.com/annaswtl/creditcard-project.git">Ver código do projeto</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal" id="modal2" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Máquina Virtual Azure</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>O projeto consiste na criação de uma máquina virtual e um banco de dados SQL na plataforma Azure. Através do portal, é possível configurar a máquina, instalar softwares e gerenciar o banco de dados.</p>
+        <div>
+            <a href="https://github.com/annaswtl/azure_vm.git">Ver código do projeto</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal 3 -->
+<div class="modal" id="modal3" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Relatório de Vendas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>O projeto consiste na criação de um relatório de vendas utilizando o Excel. Foram utilizados gráficos e tabelas para apresentar os dados de forma clara e objetiva.</p>
+        <div>
+            <a href="https://github.com/annaswtl/relatorio_De_vendas.git">Ver código do projeto</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container py-5">
+<h5>Contato:</h5>
+<div>
+    <i class="bi bi-github"></i>
+    <a href="https://github.com/annaswtl">GitHub</a>
+</div>
+</footer>
+
+<body>
